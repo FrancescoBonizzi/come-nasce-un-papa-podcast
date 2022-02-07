@@ -1,13 +1,26 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\css\" />
-  </ItemGroup>
+		<!-- Per evitare che cambi il webconfig quando pubblico -->
+		<IsTransformWebConfigDisabled>true</IsTransformWebConfigDisabled>
+
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Remove="wwwroot\sitemap.xml" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="wwwroot\css\" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<None Include="wwwroot\robots.txt" />
+		<None Include="wwwroot\sitemap.xml" />
+	</ItemGroup>
 
 </Project>
