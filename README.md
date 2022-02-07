@@ -4,4 +4,4 @@
 
 This is the **website** of my first podacast about when I become father!
 
-![Postcast logo](/assets/come-nasce-un-papa-podcast-logo-transparent.png)
+![Postcast logo](WebSite/WebSite/wwwroot/assets/come-nasce-un-papa-podcast-logo-transparent.png)
