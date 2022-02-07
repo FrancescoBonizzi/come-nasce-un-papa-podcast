@@ -207,9 +207,12 @@ section {
     padding: 5rem 2rem;
 }
 
-footer,
-header {
+footer {
     padding: 2rem;
+}
+
+header {
+    padding: 2rem 2rem 0 2rem;
 }
 
 footer > * {

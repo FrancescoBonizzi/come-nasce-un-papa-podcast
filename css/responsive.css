@@ -1,7 +1,7 @@
 @media only screen and (max-width: 1200px) {
     html {
         /* Per rem */
-        font-size: 16px;
+        font-size: 15px;
     }
 
     nav ul {
@@ -11,6 +11,10 @@
 
     nav ul li {
         margin: 0.5rem 0 !important;
+    }
+
+    nav ul li:first-child {
+        min-width: auto;
     }
 
     .main-section {
@@ -44,7 +48,8 @@
     }
 
     .text-with-image img {
-        align-self: center;
+        max-height: 250px;
+        margin-right: 0;
     }
 
     .chi-sono {
@@ -72,5 +77,30 @@
 
     .contacts-section span {
         display: none;
+    }
+
+    header {
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    section {
+        padding: 4rem 1rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .action-button {
+        padding: 12px 20px;
+    }
+
+    .yellow-dot li {
+        margin-top: 0.6rem;
+        margin-bottom: 0.6rem;
     }
 }
