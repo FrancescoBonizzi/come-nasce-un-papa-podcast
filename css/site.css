@@ -66,6 +66,7 @@ nav {
 nav ul {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 nav ul > :nth-child(1n + 2) {
@@ -74,6 +75,7 @@ nav ul > :nth-child(1n + 2) {
 
 nav ul li:first-child {
     flex: 1;
+    min-width: 350px;
 }
 
 nav ul li a {
@@ -202,11 +204,12 @@ nav {
 }
 
 section {
-    padding: 5rem 0;
+    padding: 5rem 2rem;
 }
 
-footer {
-    padding: 2rem 0;
+footer,
+header {
+    padding: 2rem;
 }
 
 footer > * {
@@ -227,6 +230,14 @@ p {
     font-size: 1.2rem;
     word-break: break-word;
     line-height: 1.8rem !important;
+}
+
+a {
+    white-space: nowrap;
+}
+
+ul li {
+    font-size: 1.2rem;
 }
 
 .chi-sono {
@@ -286,7 +297,6 @@ p {
     margin: 0.5rem 0;
     padding: 1rem 2rem;
     background-color: white;
-    max-width: 600px;
     border-radius: 24px;
     box-shadow: 0 5px 16px 0 rgb(8 15 52 / 7%);
 }

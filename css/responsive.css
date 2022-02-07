@@ -1,0 +1,76 @@
+@media only screen and (max-width: 1200px) {
+    html {
+        /* Per rem */
+        font-size: 16px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0 !important;
+    }
+
+    .main-section {
+        flex-direction: column;
+    }
+
+    .main-section h1,
+    .main-section h2 {
+        text-align: center;
+    }
+
+    .main-section img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .main-section-buttons-group {
+        justify-content: center;
+    }
+
+    .podcast-links {
+        flex-direction: column;
+    }
+
+    .podcast-links > * {
+        margin: 1rem 0 !important;
+    }
+
+    .text-with-image {
+        flex-direction: column;
+    }
+
+    .text-with-image img {
+        align-self: center;
+    }
+
+    .chi-sono {
+        flex-direction: column;
+    }
+
+    .chi-sono > div {
+        margin: 0 !important;
+    }
+
+    .francesco-bonizzi-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .francesco-bonizzi-container h4 {
+        width: auto;
+        margin-top: 0.5rem;
+    }
+
+    footer {
+        padding: 2rem 1rem;
+    }
+
+    .contacts-section span {
+        display: none;
+    }
+}
