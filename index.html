@@ -28,8 +28,24 @@
         <meta name="author" content="Francesco Bonizzi" />
         <link rel="canonical" href="https://www.francescopodcast.it" />
 
-        <!-- TODO: structured data -->
-        <!-- TODO: favicon -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "PodcastSeries",
+                "image": "https://www.francescopodcast.it/assets/come-nasce-un-papa-podcast-logo-transparent.png",
+                "url": "https://www.francescopodcast.it/",
+                "name": "Come nasce un papà",
+                "description": "Come nasce un papà è il podcast creato da Francesco Bonizzi per raccontare la sua esperienza di genitore dal giorno del concepimento alla nascita del figlio.",
+                "webFeed": "",
+                "author": {
+                    "@type": "Person",
+                    "name": "Francesco Bonizzi"
+                }
+            }
+        </script>
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -105,7 +121,7 @@
 
             <section id="dove-ascoltare">
                 <div class="section-content podcast-links">
-                    <h3>Disponibile su</h3>
+                    <h3>A BREVISSIMO su</h3>
                     <a href="#" alt="Il link per ascoltare Come nasce un papà su Apple Podcast">
                         <img src="assets/apple-podcast-logo.svg" height="35" alt="Apple Podcasts logo" />
                     </a>
@@ -129,17 +145,24 @@
                     <h3>Il podcast</h3>
                     <!-- TODO: ci vuole un'altra foto qui -->
                     <p><strong>Come nasce un papà</strong> è un progetto che viene dal cuore.</p>
-                    <p>
-                        La mattina del 28 novembre 2019 mi sveglio e Chiara non è a letto con me. Mi alzo, senza inforcare
-                        gli occhiali, mi dirigo come uno zombie acefalo verso la lucina che si intravede da sotto la porta,
-                        cercando di non tirare testate contro le cose. Vado in cucina e la trovo col telefono in mano che mi
-                        filma! C'è un foglio sul tavolo e un aggeggio lì vicino che non distinguo perché senza occhiali non
-                        vedo neanche le mie mani. Mi avvicino, assonnato, e leggo la scritta sul foglio:
-                        <strong>Buongiorno papà!</strong>
-                    </p>
+                    <div class="text-with-image">
+                        <img
+                            src="assets/come-nasce-un-papà-buongiorno.jpg"
+                            alt="Il test di gravidanza di quando ho scoperto di diventare papà"
+                            height="300"
+                        />
+                        <p>
+                            La mattina del 28 novembre 2019 mi sveglio e Chiara non è a letto con me. Mi alzo, senza
+                            inforcare gli occhiali, mi dirigo come uno zombie acefalo verso la lucina che si intravede da
+                            sotto la porta, cercando di non tirare testate contro le cose. Vado in cucina e la trovo col
+                            telefono in mano che mi filma! C'è un foglio sul tavolo e un aggeggio lì vicino che non distinguo
+                            perché senza occhiali non vedo neanche le mie mani.<br />
+                            Mi avvicino, assonnato, e leggo la scritta sul foglio:<br /><strong>Buongiorno papà!</strong>
+                        </p>
+                    </div>
                     <p>
                         Non so come si realizzino i podcast, ma <strong>volevo esprimere quello che provavo</strong> mentre
-                        diventavo un papà.
+                        diventavo un papà: così ho comprato un microfono, ho scritto due righe ed ho iniziato a registrare.
                     </p>
                 </div>
             </section>
@@ -150,24 +173,25 @@
                         <h3>Chi sono</h3>
                         <p>
                             Mi chiamo <strong>Francesco Bonizzi</strong> e di lavoro faccio lo
-                            <a href="https://www.imaginesoftware.it">sviluppatore software freelance</a>. Sono nato nel 1990
-                            a Mantova e adesso vivo a Fidenza, in provincia di Parma, con mia moglie Chiara e - come potrete
-                            immaginare - mio figlio.
+                            <a href="https://www.imaginesoftware.it" target="_blank">sviluppatore software freelance</a>.
+                            Sono nato nel 1990 a Mantova e adesso vivo in provincia di Parma, con mia moglie Chiara e - come
+                            potrete immaginare - mio figlio.
                         </p>
                         <p>
                             Adoro suonare il <span class="piano-black">p</span>i<span class="piano-black">a</span>n<span
                                 class="piano-black"
                                 >o</span
-                            >f<span class="piano-black">o</span>r<span class="piano-black">t</span>e,
-                            <span class="montagna-boschi">la montagna, i boschi</span>, la
-                            <span class="pioggia">pioggia</span> 🌧️ e le grandi nevicate. Gioco ai videogiochi, coltivo
-                            piantine con la tecnica dell'idroponico, sono vegetariano 💚 e appassionato di scienza 🔬.
+                            >f<span class="piano-black">o</span>r<span class="piano-black">t</span>e, la montagna, >f<span
+                                class="piano-black"
+                                >o</span
+                            >r<span class="piano-black">t</span>e, la montagna,
+                            <span class="montagna-boschi">i boschi</span>, la <span class="pioggia">pioggia</span> 🌧️ e le
+                            grandi nevicate. Gioco ai videogiochi, coltivo piantine con la tecnica dell'idroponico, sono
+                            vegetariano 💚 e appassionato di scienza 🔬.
                         </p>
                         <p>
-                            Ritengo la scienza il metodo attualmente più attendibile per produrre affermazioni il più
-                            possibile vere in merito alla natura dei fenomeni, pertanto rifiuto in toto affermazioni od
-                            organizzazioni o discipline che diffondano affermazioni senza prove, capziose, false, in grado di
-                            indurre volutamente in errore le persone.
+                            Il mio piatto preferito sono i tortelli di zucca mantovani, detesto i fusilli, non so resistere
+                            al gelato e leggo tanti manga!
                         </p>
                     </div>
                     <div class="francesco-bonizzi-container">
@@ -178,7 +202,10 @@
                             alt="Una foto di Francesco Bonizzi"
                         />
                         <h4>Francesco Bonizzi</h4>
-                        <p>Non ho Instagram né Facebook, ma puoi scrivermi quando vuoi su Telegram o per email!</p>
+                        <p>
+                            Non ho Instagram né Facebook perché mi hanno stufato, ma puoi scrivermi quando vuoi su Telegram o
+                            per email!
+                        </p>
                         <p><a href="#contattami">Ecco i miei contatti</a></p>
                     </div>
                 </div>
@@ -187,14 +214,36 @@
             <section id="episodi" class="alt-section">
                 <div class="section-content">
                     <h3>Episodi</h3>
-                    <ul>
+                    <p><strong>In arrivo a brevissimo!</strong></p>
+                    <!-- <ul>
                         <li>
                             <h4>EP 01</h4>
                             <h5>Divento papà</h5>
                             <p>bla bla</p>
                             <a href="dove-ascoltare">Ascolta subito</a>
                         </li>
-                    </ul>
+                    </ul> -->
+
+                    <!-- <div itemscope itemtype="https://schema.org/PodcastEpisode" class="episode__entry">
+                        <h2>
+                            <a itemprop="url" href="http://www.relay.fm/inquisitive/27">
+                                <span itemprop="name">#27: Behind the App #1: History</span>
+                            </a>
+                        </h2>
+                        <small><time itemprop="datePublished" datetime="2015-02-18">February 18th, 2015</time></small>
+                        <small><time itemprop="timeRequired" datetime="PT37M">37 minutes</time></small>
+                        <p itemprop="description">
+                            In the first episode of “Behind the App”, a special series of Inquisitive, we take a look at the
+                            beginnings of iOS app development, by focusing on the introduction of the iPhone and the App
+                            Store.
+                        </p>
+                        <p itemprop="associatedMedia" itemscope itemtype="https://schema.org/MediaObject">
+                            Download:
+                            <a itemprop="contentUrl" href="http://.../Inquisitive_027.mp3">
+                                MP3 (<span itemprop="contentSize">25.75 MB</span>)
+                            </a>
+                        </p>
+                    </div> -->
                 </div>
             </section>
 
@@ -212,25 +261,27 @@
             <section id="contattami" class="alt-section">
                 <div class="section-content contacts-section">
                     <h3>Vuoi dirmi qualcosa?</h3>
-                    <div>
-                        <img
-                            src="assets/logo-telegram.png"
-                            width="50"
-                            height="50"
-                            alt="Il logo dell'App di messaggistica Telegram"
-                        />
-                        <div>
-                            <span>Scrivimi su Telegram:</span>
-                            <a href="https://telegram.me/fbonizzi">@fbonizzi</a>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="assets/logo-email.png" alt="Il logo di un'email" width="50" height="50" />
-                        <div>
-                            <span>Scrivimi per email:</span>
-                            <a href="mailto:fbonizzi.90@gmail.com">fbonizzi.90@gmail.com</a>
-                        </div>
-                    </div>
+                    <ul>
+                        <li>
+                            <img
+                                src="assets/logo-telegram.png"
+                                width="50"
+                                height="50"
+                                alt="Il logo dell'App di messaggistica Telegram"
+                            />
+                            <div>
+                                <span>Scrivimi su Telegram:</span>
+                                <a href="https://telegram.me/fbonizzi">@fbonizzi</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="assets/logo-email.png" alt="Il logo di un'email" width="50" height="50" />
+                            <div>
+                                <span>Scrivimi per email:</span>
+                                <a href="mailto:fbonizzi.90@gmail.com">fbonizzi.90@gmail.com</a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </section>
         </main>
