@@ -336,3 +336,15 @@ ul li {
     border-radius: 30px;
     margin-right: 2rem;
 }
+
+main > section:first-child {
+    padding-top: 0;
+}
+
+.header-error-page {
+    display: none;
+}
+
+.footer-error-page {
+    display: none;
+}
