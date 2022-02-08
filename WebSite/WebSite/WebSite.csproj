@@ -11,16 +11,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Content Remove="wwwroot\sitemap.xml" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<Folder Include="wwwroot\css\" />
-	</ItemGroup>
-	
-	<ItemGroup>
-		<None Include="wwwroot\robots.txt" />
-		<None Include="wwwroot\sitemap.xml" />
 	</ItemGroup>
 
 </Project>
