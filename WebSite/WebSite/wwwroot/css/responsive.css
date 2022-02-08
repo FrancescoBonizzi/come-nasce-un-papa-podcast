@@ -50,6 +50,7 @@
     .text-with-image img {
         max-height: 250px;
         margin-right: 0;
+        align-self: center;
     }
 
     .chi-sono {
