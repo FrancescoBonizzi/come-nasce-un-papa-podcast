@@ -1,0 +1,32 @@
+﻿@{
+    string sectionClass = Model?.IsAlt ? "alt-section" : string.Empty;
+}
+<section id="contattami" class="@sectionClass">
+    <div class="section-content contacts-section cards-list">
+        <h3>Vuoi dirmi qualcosa? Ti ascolto!</h3>
+        <ul>
+            <li>
+                <img src="~/assets/logo-telegram.png"
+                     width="50"
+                     height="50"
+                     asp-append-version="true"
+                     alt="Il logo dell'App di messaggistica Telegram" />
+                <div>
+                    <span>Scrivimi su Telegram:</span>
+                    <a href="https://telegram.me/fbonizzi">@@fbonizzi</a>
+                </div>
+            </li>
+            <li>
+                <img src="~/assets/logo-email.png"
+                     alt="Il logo di un'email"
+                     width="50"
+                     height="50"
+                     asp-append-version="true" />
+                <div>
+                    <span>Scrivimi per email:</span>
+                    <a href="mailto:fbonizzi.90@gmail.com">fbonizzi.90@gmail.com</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>

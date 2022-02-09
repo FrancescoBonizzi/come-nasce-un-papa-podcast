@@ -32,6 +32,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link href="~/css/site.css" rel="stylesheet" asp-append-version="true" />
     <link href="~/css/responsive.css" rel="stylesheet" asp-append-version="true" />
+
+    <!-- SPREAKER -->
+    <script async src="https://widget.spreaker.com/widgets.js"></script>
+
 </head>
 
 <body>
@@ -54,15 +58,15 @@
                 </li>
 
                 <li>
-                    <a href="#podcast">Il podcast</a>
+                    <a href="~/#podcast">Il podcast</a>
                 </li>
 
                 <li>
-                    <a href="#chi-sono">Chi sono</a>
+                    <a href="~/#chi-sono">Chi sono</a>
                 </li>
 
                 <li>
-                    <a href="#episodi">Gli episodi</a>
+                    <a href="~/#episodi">Gli episodi</a>
                 </li>
 
                 <li>
@@ -80,5 +84,8 @@
         <p>Questo podcast è scritto, registrato ed editato da me, Francesco Bonizzi, con tanto amore 💚</p>
         <p>&copy; Copyright 2022. <strong>Come nasce un papà</strong></p>
     </footer>
+
+    @RenderSection("Scripts", required: false)
+
 </body>
 </html>

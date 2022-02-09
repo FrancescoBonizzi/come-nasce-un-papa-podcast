@@ -63,49 +63,49 @@ nav {
     padding: 2rem 0;
 }
 
-nav ul {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
+    nav ul {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 
-nav ul > :nth-child(1n + 2) {
-    margin: 0 1rem;
-}
+        nav ul > :nth-child(1n + 2) {
+            margin: 0 1rem;
+        }
 
-nav ul li:first-child {
-    flex: 1;
-    min-width: 350px;
-}
+        nav ul li:first-child {
+            flex: 1;
+            min-width: 350px;
+        }
 
-nav ul li a {
-    font-size: 1.2rem;
-    color: var(--titles-color);
-    font-weight: 500;
-}
+        nav ul li a {
+            font-size: 1.2rem;
+            color: var(--titles-color);
+            font-weight: 500;
+        }
 
-nav ul li a:hover {
-    color: var(--accent-color);
-}
+            nav ul li a:hover {
+                color: var(--accent-color);
+            }
 
 .header-logo {
     display: flex;
     align-items: center;
 }
 
-.header-logo img {
-    margin-right: 1rem;
-}
+    .header-logo img {
+        margin-right: 1rem;
+    }
 
-.header-logo span {
-    font-size: 1.4rem;
-    color: var(--titles-color);
-    font-weight: bold;
-}
+    .header-logo span {
+        font-size: 1.4rem;
+        color: var(--titles-color);
+        font-weight: bold;
+    }
 
-.header-logo:hover span {
-    color: var(--accent-color);
-}
+    .header-logo:hover span {
+        color: var(--accent-color);
+    }
 
 .action-button {
     padding: 24px 40px;
@@ -125,12 +125,12 @@ nav ul li a:hover {
     transition: color 350ms ease, transform 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
 }
 
-.action-button:hover {
-    background-color: var(--accent-color);
-    -webkit-transform: translate3d(0px, -4px, 0.01px);
-    transform: translate3d(0px, -4px, 0.01px);
-    color: #fff !important;
-}
+    .action-button:hover {
+        background-color: var(--accent-color);
+        -webkit-transform: translate3d(0px, -4px, 0.01px);
+        transform: translate3d(0px, -4px, 0.01px);
+        color: #fff !important;
+    }
 
 .alt-section {
     background-color: var(--alt-section-color);
@@ -168,9 +168,9 @@ h4 {
     display: flex;
 }
 
-.main-section-buttons-group > :first-child {
-    margin-right: 1rem;
-}
+    .main-section-buttons-group > :first-child {
+        margin-right: 1rem;
+    }
 
 .section-content,
 nav {
@@ -185,23 +185,23 @@ nav {
     align-items: center;
 }
 
-.podcast-links > :first-child {
-    flex: 1;
-}
+    .podcast-links > :first-child {
+        flex: 1;
+    }
 
-.podcast-links > a {
-    transition: transform 300ms ease;
-    transition: transform 300ms ease, -webkit-transform 300ms ease;
-}
+    .podcast-links > a {
+        transition: transform 300ms ease;
+        transition: transform 300ms ease, -webkit-transform 300ms ease;
+    }
 
-.podcast-links > a:hover {
-    -webkit-transform: translate3d(0px, -4px, 0.01px);
-    transform: translate3d(0px, -4px, 0.01px);
-}
+        .podcast-links > a:hover {
+            -webkit-transform: translate3d(0px, -4px, 0.01px);
+            transform: translate3d(0px, -4px, 0.01px);
+        }
 
-.podcast-links > :nth-child(1n + 2) {
-    margin: 0 1.4rem;
-}
+    .podcast-links > :nth-child(1n + 2) {
+        margin: 0 1.4rem;
+    }
 
 section {
     padding: 5rem 2rem;
@@ -247,13 +247,13 @@ ul li {
     display: flex;
 }
 
-.chi-sono img {
-    border-radius: 50%;
-}
+    .chi-sono img {
+        border-radius: 50%;
+    }
 
-.chi-sono > div:first-child {
-    margin-right: 5rem;
-}
+    .chi-sono > div:first-child {
+        margin-right: 5rem;
+    }
 
 .francesco-bonizzi-container {
     border-radius: 24px;
@@ -262,20 +262,20 @@ ul li {
     box-shadow: 0 5px 16px 0 rgb(8 15 52 / 7%);
 }
 
-.francesco-bonizzi-container h4 {
-    color: var(--titles-color);
-    font-size: 1.3rem;
-    width: 300px;
-}
+    .francesco-bonizzi-container h4 {
+        color: var(--titles-color);
+        font-size: 1.3rem;
+        width: 300px;
+    }
 
 .section-content a {
     color: var(--titles-color);
     text-decoration: underline;
 }
 
-.section-content a:hover {
-    color: var(--accent-color);
-}
+    .section-content a:hover {
+        color: var(--accent-color);
+    }
 
 .piano-black {
     color: black !important;
@@ -289,53 +289,53 @@ ul li {
     color: #3f5fff;
 }
 
-.contacts-section ul {
+.cards-list {
     display: flex;
     flex-direction: column;
 }
 
-.contacts-section ul li {
-    display: flex;
-    align-items: center;
-    margin: 0.5rem 0;
-    padding: 1rem 2rem;
-    background-color: white;
-    border-radius: 24px;
-    box-shadow: 0 5px 16px 0 rgb(8 15 52 / 7%);
-}
+    .cards-list li {
+        display: flex;
+        align-items: center;
+        margin: 0.5rem 0;
+        padding: 1rem 2rem;
+        background-color: white;
+        border-radius: 24px;
+        box-shadow: 0 5px 16px 0 rgb(8 15 52 / 7%);
+    }
 
-.contacts-section img {
-    margin-right: 1rem;
-}
+    .cards-list img {
+        margin-right: 1rem;
+    }
 
 .yellow-dot {
     padding-left: 1rem;
 }
 
-.yellow-dot,
-.yellow-dot li {
-    list-style: none;
-}
+    .yellow-dot,
+    .yellow-dot li {
+        list-style: none;
+    }
 
-.yellow-dot li::before {
-    content: '\2022'; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: var(--primary-color); /* Change the color */
-    font-weight: bold; /* If you want it to be bold */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1rem; /* Also needed for space (tweak if needed) */
-    font-size: 1.5rem;
-    margin-left: -1rem; /* Also needed for space (tweak if needed) */
-}
+        .yellow-dot li::before {
+            content: '\2022'; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+            color: var(--primary-color); /* Change the color */
+            font-weight: bold; /* If you want it to be bold */
+            display: inline-block; /* Needed to add space between the bullet and the text */
+            width: 1rem; /* Also needed for space (tweak if needed) */
+            font-size: 1.5rem;
+            margin-left: -1rem; /* Also needed for space (tweak if needed) */
+        }
 
 .text-with-image {
     display: flex;
     flex-direction: row;
 }
 
-.text-with-image img {
-    border-radius: 30px;
-    margin-right: 2rem;
-}
+    .text-with-image img {
+        border-radius: 30px;
+        margin-right: 2rem;
+    }
 
 main > section:first-child {
     padding-top: 0;
@@ -347,4 +347,13 @@ main > section:first-child {
 
 .footer-error-page {
     display: none;
+}
+
+.song-title {
+    font-weight: bold;
+    margin-right: 6px;
+}
+
+.song-author {
+    margin-left: 6px;
 }
