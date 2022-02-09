@@ -349,11 +349,54 @@ main > section:first-child {
     display: none;
 }
 
-.song-title {
-    font-weight: bold;
-    margin-right: 6px;
+
+
+.episodi-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.song-author {
-    margin-left: 6px;
+    .episodi-list li {
+        margin: 0.5rem;
+        padding: 2rem;
+        background-color: white;
+        border-radius: 24px;
+        box-shadow: 0 5px 16px 0 rgb(8 15 52 / 7%);
+        transition: color 350ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
+        transition: color 350ms ease, transform 300ms ease, background-color 300ms ease;
+        transition: color 350ms ease, transform 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .episodi-list li span {
+            align-items: flex-end;
+            color: var(--titles-color);
+            font-size: 1rem;
+        }
+
+        .episodi-list li p {
+            padding: 1.1rem 0;
+            color: var(--body-text-color);
+            font-size: 1rem;
+        }
+
+    .episodi-list a {
+        text-decoration: none;
+        white-space: normal;
+        cursor: pointer;
+    }
+
+    .episodi-list li:hover {
+        -webkit-transform: translate3d(0px, -4px, 0.01px);
+        transform: translate3d(0px, -4px, 0.01px);
+    }
+
+    .episodi-list li:hover span {
+        color: var(--accent-color);
+    }
+
+.songs-list li {
+    white-space: pre;
 }
