@@ -5,16 +5,14 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-
-
 <url>
-  <loc>https://francescopodcast.it/</loc>
-  <lastmod>2022-02-09T06:51:52+00:00</lastmod>
+  <loc>https://www.francescopodcast.it/</loc>
+  <lastmod>2022-02-14T08:20:34+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://francescopodcast.it/episodi/episodio-1-divento-papa</loc>
-  <lastmod>2022-02-09T06:51:52+00:00</lastmod>
+  <loc>https://www.francescopodcast.it/episodi/episodio-1-divento-papa</loc>
+  <lastmod>2022-02-14T08:20:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
