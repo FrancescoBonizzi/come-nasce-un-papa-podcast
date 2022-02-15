@@ -47,11 +47,12 @@
         flex-direction: column;
     }
 
-    .text-with-image img {
-        max-height: 250px;
-        margin-right: 0;
-        align-self: center;
-    }
+        .text-with-image img {
+            margin-right: 0;
+            align-self: center;
+            height: auto;
+            width: 100%;
+        }
 
     .chi-sono {
         flex-direction: column;
