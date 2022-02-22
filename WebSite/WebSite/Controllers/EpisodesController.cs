@@ -11,5 +11,9 @@ namespace WebSite.Controllers
         [Route(template: "/episodi/episodio-2-prima-visita")]
         public IActionResult Episodio2()
             => View();
+
+        [Route(template: "/episodi/episodio-3-iniziano-le-nausee")]
+        public IActionResult Episodio3()
+            => View();
     }
 }
