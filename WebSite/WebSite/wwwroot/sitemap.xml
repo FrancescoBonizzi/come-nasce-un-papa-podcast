@@ -25,4 +25,16 @@
 		<changefreq>daily</changefreq>
 		<priority>0.9</priority>
 	</url>
+	<url>
+		<loc>https://www.francescopodcast.it/episodi/episodio-4-dirlo-a-tutti</loc>
+		<lastmod>2022-03-01</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://www.francescopodcast.it/episodi/intermezzo-ninna-nanna-magica</loc>
+		<lastmod>2022-03-01</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.9</priority>
+	</url>
 </urlset>
