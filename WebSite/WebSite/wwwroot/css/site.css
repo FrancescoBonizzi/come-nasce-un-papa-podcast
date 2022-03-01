@@ -386,6 +386,7 @@ main > section:first-child {
         text-decoration: none;
         white-space: normal;
         cursor: pointer;
+        flex: 1;
     }
 
     .episodi-list li:hover {
