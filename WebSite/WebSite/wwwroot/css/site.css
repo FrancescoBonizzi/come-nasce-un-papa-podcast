@@ -398,6 +398,6 @@ main > section:first-child {
         color: var(--accent-color);
     }
 
-.songs-list li {
-    white-space: pre;
+.songs-list li p {
+    padding: 0;
 }
