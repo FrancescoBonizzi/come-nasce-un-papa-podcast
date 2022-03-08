@@ -401,3 +401,7 @@ main > section:first-child {
 .songs-list li p {
     padding: 0;
 }
+
+blockquote {
+    white-space: break-spaces;
+}

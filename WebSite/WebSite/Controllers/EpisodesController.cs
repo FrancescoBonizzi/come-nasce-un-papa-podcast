@@ -23,5 +23,9 @@ namespace WebSite.Controllers
         [Route(template: "/episodi/intermezzo-ninna-nanna-magica")]
         public IActionResult Intermezzo()
             => View();
+
+        [Route(template: "/episodi/episodio-5-pensieri-sentieri")]
+        public IActionResult Episodio5()
+            => View();
     }
 }
