@@ -35,5 +35,9 @@ namespace WebSite.Controllers
         [Route(template: "/episodi/episodio-7-preparare-il-nido")]
         public IActionResult Episodio7()
             => View();
+
+        [Route(template: "/episodi/episodio-8-coronavirus")]
+        public IActionResult Episodio8()
+            => View();
     }
 }
