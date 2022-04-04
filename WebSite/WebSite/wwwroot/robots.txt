@@ -1,5 +1,0 @@
-Sitemap: https://www.francescopodcast.it/sitemap.xml
-Sitemap: http://www.francescopodcast.it/sitemap.xml
-User-agent: *
-Allow: /
-Disallow: 
