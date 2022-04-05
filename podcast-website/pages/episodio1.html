@@ -1,6 +1,7 @@
 ---
 layout: skeleton
 permalink: /episodi/episodio-1-divento-papa
+isEpisodePage: true
 
 metaTitle: Mese 1 - Divento papà
 metaDescription: "La mattina del 28 novembre 2019 mi sveglio e Chiara non è a letto con me... Mi avvicino, assonnato, e leggo la scritta sul foglio: Buongiorno papà!"
@@ -10,7 +11,7 @@ structuredData: '<script type="application/ld+json">
     {
         "@context": "https://schema.org/",
         "@type": "PodcastEpisode",
-        "url": "https://www.francescopodcast.it/episodi/episodio-1-divento-papa",
+        "url": "https://www.francescopodcast.it/{{ page.permalink }}",
         "name": "{{ page.metaTitle }}",
         "datePublished": "2022-02-09",
         "timeRequired": "PT5M",
@@ -52,7 +53,7 @@ structuredData: '<script type="application/ld+json">
     </div>
 </section>
 
-<partial name="_DisponibileSu" />
+{% include disponibileSu.html %}
 
 <section class="alt-section">
     <div class="section-content">

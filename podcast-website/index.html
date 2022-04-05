@@ -1,5 +1,7 @@
 ---
 layout: skeleton
+isEpisodePage: false
+
 metaTitle: Il podcast
 metaDescription: 'Come nasce un papà è il primo podcast in cui la gravidanza è raccontata da un papà: un progetto totalmente amatoriale che viene dal cuore'
 ---
@@ -88,99 +90,15 @@ metaDescription: 'Come nasce un papà è il primo podcast in cui la gravidanza �
     <div class="section-content">
         <h3>Episodi</h3>
         <ul class="episodi-list">
+            {% for page in site.pages %} {% if page.isEpisodePage %}
             <li>
-                <a href="/episodi/episodio-1-divento-papa">
-                    <h4>Mese 1 - Divento papà</h4>
-                    <p>La mattina del 28 novembre 2019 mi sveglio e Chiara non è a letto con me...</p>
+                <a href="{{ page.permalink }}">
+                    <h4>{{ page.metaTitle }}</h4>
+                    <p>{{ page.metaDescription }}</p>
                 </a>
                 <span>▶️ Ascoltalo subito</span>
             </li>
-
-            <li>
-                <a href="/episodio2.html">
-                    <h4>Mese 2 - La prima visita</h4>
-                    <p>È due mesi che faccio il test della doppia sberla ogni mattina...</p>
-                </a>
-                <span>▶️ Ascoltalo subito</span>
-            </li>
-
-            <li>
-                <a href="/episodio3.html">
-                    <h4>Mese 3 - Iniziano le nausee</h4>
-                    <p>
-                        Chiara dorme poco, è stanca ed ha nausee frequenti che cerca di blandire mangiando a piccole dosi...
-                    </p>
-                </a>
-                <span>▶️ Ascoltalo subito</span>
-            </li>
-
-            <li>
-                <a href="/episodio4.html">
-                    <h4>Mese 4 - Dirlo a tutti</h4>
-                    <p>Selfie di famiglia: "al mio tre dite tutti... aspettiamo un bambino!"</p>
-                </a>
-                <span>▶️ Ascoltalo subito</span>
-            </li>
-
-            <li>
-                <a href="/intermezzo.html">
-                    <h4>Intermezzo - Ninna nanna magica</h4>
-                    <p>Libertà, libertà libertà, montagne a punta, vertigini profondissime, strade innevate...</p>
-                </a>
-                <span>▶️ Ascoltalo subito</span>
-            </li>
-
-            <li>
-                <a href="/episodio5.html">
-                    <h4>Mese 5 - Pensieri sentieri</h4>
-                    <p>
-                        Quando mi trovai in mare aperto onde immense mi travolsero e mi straziarono per rivelarmi amare
-                        verità che ignoravo...
-                    </p>
-                </a>
-                <span>▶️ Ascoltalo subito</span>
-            </li>
-
-            <li>
-                <a href="/episodio6.html">
-                    <h4>Mese 6 - Il biscotto della paura</h4>
-                    <p>
-                        È UN MASCHIO! È un maschio, ho visto le foto. E c'era anche una manina che mi salutava da sotto la
-                        pancia!
-                    </p>
-                </a>
-                <span>▶️ Ascoltalo subito</span>
-            </li>
-
-            <li>
-                <a href="/episodio7.html">
-                    <h4>Mese 7 - Preparare il nido</h4>
-                    <p>
-                        Preparare il nido significa costruire un luogo invitante per accogliere la cosa più bella del
-                        mondo...
-                    </p>
-                </a>
-                <span>▶️ Ascoltalo subito</span>
-            </li>
-
-            <li>
-                <a href="/episodio8.html">
-                    <h4>Mese 8 - Coronavirus</h4>
-                    <p>
-                        Nella realtà nessun cerchio è prefetto, nessun contesto è completamente chiuso, le simmetrie sono
-                        solo delle approssimazioni
-                    </p>
-                </a>
-                <span>▶️ Ascoltalo subito</span>
-            </li>
-
-            <li>
-                <a href="/episodio9.html">
-                    <h4>Mese 9 - Ecco Damiano! Finale di stagione</h4>
-                    <p>Contrazioni, si rompono le acque, epidurale... Cazzo, sto diventando un papà!</p>
-                </a>
-                <span>▶️ Ascoltalo subito</span>
-            </li>
+            {% endif %} {% endfor %}
         </ul>
     </div>
 </section>
