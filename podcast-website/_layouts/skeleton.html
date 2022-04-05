@@ -20,8 +20,25 @@
     
     <link rel="canonical" href="https://www.francescopodcast.it{{ page.permalink }}" />
 
+    {% if page.isEpisodePage %}
     <!-- STRUCTURED DATA -->
-    {{ page.structuredData }}
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "PodcastEpisode",
+            "url": "https://www.francescopodcast.it/{{ page.permalink }}",
+            "name": "{{ page.metaTitle }}",
+            "datePublished": "{{ page.datePublished }}",
+            "timeRequired": "{{ page.duration }}",
+            "description": "{{ page.metaDescription }}",
+            "partOfSeries": {
+                "@type": "PodcastSeries",
+                "name": "Come nasce un papà",
+                "url": "https://www.francescopodcast.it/"
+            }
+        }
+    </script>
+    {% endif %}
 
     <!-- ICONS -->
     <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicons/apple-touch-icon.png">
