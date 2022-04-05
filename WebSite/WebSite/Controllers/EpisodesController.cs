@@ -39,5 +39,9 @@ namespace WebSite.Controllers
         [Route(template: "/episodi/episodio-8-coronavirus")]
         public IActionResult Episodio8()
             => View();
+
+        [Route(template: "/episodi/episodio-9-ecco-damiano-finale-stagione")]
+        public IActionResult Episodio9()
+            => View();
     }
 }
