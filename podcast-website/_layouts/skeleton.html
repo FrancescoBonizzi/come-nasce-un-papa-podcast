@@ -15,10 +15,10 @@
     <meta property="og:description" content="{{ page.metaDescription }}" />
     <meta property="og:site_name" content="Come nasce un papà" />
     <meta property="og:locale" content="it_IT" />
-    <meta property="og:image" content="https://www.francescopodcast.it/assets/images/come-nasce-un-papa-podcast-logo-transparent.png" />
+    <meta property="og:image" content="{{ site.url }}/assets/images/come-nasce-un-papa-podcast-logo-transparent.png" />
     <meta name="author" content="Francesco Bonizzi" />
     
-    <link rel="canonical" href="https://www.francescopodcast.it{{ page.permalink }}" />
+    <link rel="canonical" href="{{ site.url }}{{ page.permalink }}" />
 
     {% if page.isEpisodePage %}
     <!-- STRUCTURED DATA -->
@@ -26,7 +26,7 @@
         {
             "@context": "https://schema.org/",
             "@type": "PodcastEpisode",
-            "url": "https://www.francescopodcast.it/{{ page.permalink }}",
+            "url": "{{ site.url }}{{ page.permalink }}",
             "name": "{{ page.metaTitle }}",
             "datePublished": "{{ page.datePublished }}",
             "timeRequired": "{{ page.duration }}",
@@ -34,7 +34,7 @@
             "partOfSeries": {
                 "@type": "PodcastSeries",
                 "name": "Come nasce un papà",
-                "url": "https://www.francescopodcast.it/"
+                "url": "{{ site.url }}"
             }
         }
     </script>
