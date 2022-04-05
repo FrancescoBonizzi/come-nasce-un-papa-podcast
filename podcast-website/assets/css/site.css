@@ -4,6 +4,7 @@
     --accent-color: #7e29cd;
     --body-text-color: #8c8c95;
     --alt-section-color: #f7f7f7;
+    --footer-color: #f5f5f7;
 }
 
 html {
@@ -402,4 +403,19 @@ main > section:first-child {
 
 blockquote {
     white-space: break-spaces;
+}
+
+footer,
+#contattami {
+    background-color: var(--accent-color);
+}
+
+footer > *,
+#contattami > *,
+#contattami h3 {
+    color: white !important;
+}
+
+#contattami li {
+    color: var(--titles-color);
 }
