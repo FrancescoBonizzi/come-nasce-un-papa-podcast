@@ -1,114 +1,114 @@
 <!DOCTYPE html>
 
 <html lang="it" dir="ltr">
-<head>
-    <meta charset="utf-8" />
+    <head>
+        <meta charset="utf-8" />
 
-    <!-- MAKE IT RESPONSIVE, YEAH! -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <!-- MAKE IT RESPONSIVE, YEAH! -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 
-    <!-- SEO -->
-    <title>Come nasce un papà - {{ page.metaTitle }}</title>
-    <meta name="description" content="{{ page.metaDescription }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Come nasce un papà - {{ page.metaTitle }}" />
-    <meta property="og:description" content="{{ page.metaDescription }}" />
-    <meta property="og:site_name" content="Come nasce un papà" />
-    <meta property="og:locale" content="it_IT" />
-    <meta property="og:image" content="{{ site.url }}/assets/images/come-nasce-un-papa-podcast-logo-transparent.png" />
-    <meta name="author" content="Francesco Bonizzi" />
-    
-    <link rel="canonical" href="{{ site.url }}{{ page.permalink }}" />
+        <!-- SEO -->
+        <title>Come nasce un papà - {{ page.metaTitle }}</title>
+        <meta name="description" content="{{ page.metaDescription }}" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Come nasce un papà - {{ page.metaTitle }}" />
+        <meta property="og:description" content="{{ page.metaDescription }}" />
+        <meta property="og:site_name" content="Come nasce un papà" />
+        <meta property="og:locale" content="it_IT" />
+        <meta property="og:image" content="{{ site.url }}/assets/images/come-nasce-un-papa-podcast-logo-transparent.png" />
+        <meta name="author" content="Francesco Bonizzi" />
 
-    {% if page.isEpisodePage %}
-    <!-- STRUCTURED DATA -->
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org/",
-            "@type": "PodcastEpisode",
-            "url": "{{ site.url }}{{ page.permalink }}",
-            "name": "{{ page.metaTitle }}",
-            "datePublished": "{{ page.datePublished }}",
-            "timeRequired": "{{ page.duration }}",
-            "description": "{{ page.metaDescription }}",
-            "partOfSeries": {
-                "@type": "PodcastSeries",
-                "name": "Come nasce un papà",
-                "url": "{{ site.url }}"
+        <link rel="canonical" href="{{ site.url }}{{ page.permalink }}" />
+
+        {% if page.isEpisodePage %}
+        <!-- STRUCTURED DATA -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "PodcastEpisode",
+                "url": "{{ site.url }}{{ page.permalink }}",
+                "name": "{{ page.metaTitle }}",
+                "datePublished": "{{ page.datePublished }}",
+                "timeRequired": "{{ page.duration }}",
+                "description": "{{ page.metaDescription }}",
+                "partOfSeries": {
+                    "@type": "PodcastSeries",
+                    "name": "Come nasce un papà",
+                    "url": "{{ site.url }}"
+                }
             }
-        }
-    </script>
-    {% endif %}
+        </script>
+        {% endif %}
 
-    <!-- ICONS -->
-    <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/assets/images/favicons/site.webmanifest">
-    <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#000000">
-    <meta name="theme-color" content="#ffffff">
+        <!-- ICONS -->
+        <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicons/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png" />
+        <link rel="manifest" href="/assets/images/favicons/site.webmanifest" />
+        <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#000000" />
+        <meta name="theme-color" content="#ffffff" />
 
-    <!-- STYLE -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link href="/assets/css/site.css" rel="stylesheet" />
-    <link href="/assets/css/responsive.css" rel="stylesheet" />
+        <!-- STYLE -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link href="/assets/css/site.css" rel="stylesheet" />
+        <link href="/assets/css/responsive.css" rel="stylesheet" />
 
-    <!-- SPREAKER -->
-    <script async src="https://widget.spreaker.com/widgets.js"></script>
+        <!-- SPREAKER -->
+        <script async src="https://widget.spreaker.com/widgets.js"></script>
+    </head>
 
-</head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="header-logo" href="/">
+                            <img
+                                src="/assets/images/come-nasce-un-papa-logo-notext-transparent.png"
+                                alt="Il logo del podcast 'Come nasce un papà'"
+                                width="50"
+                                height="50"
+                            />
+                            <span>Come nasce un papà</span>
+                        </a>
+                    </li>
 
-<body>
+                    <li>
+                        <a class="action-button action-button-small" href="#dove-ascoltare">Dove ascoltare</a>
+                    </li>
 
-    <header class="@ViewData["Header-Custom-Class"]">
-        <nav>
-            <ul>
-                <li>
-                    <a class="header-logo" href="/">
-                        <img src="/assets/images/come-nasce-un-papa-logo-notext-transparent.png"
-                             alt="Il logo del podcast 'Come nasce un papà'"
-                             width="50"
-                             height="50" />
-                        <span>Come nasce un papà</span>
-                    </a>
-                </li>
+                    <li>
+                        <a href="/#podcast">Il podcast</a>
+                    </li>
 
-                <li>
-                    <a class="action-button action-button-small" href="#dove-ascoltare">Dove ascoltare</a>
-                </li>
+                    <li>
+                        <a href="/#chi-sono">Chi sono</a>
+                    </li>
 
-                <li>
-                    <a href="/#podcast">Il podcast</a>
-                </li>
+                    <li>
+                        <a href="/#episodi">Gli episodi</a>
+                    </li>
 
-                <li>
-                    <a href="/#chi-sono">Chi sono</a>
-                </li>
+                    <li>
+                        <a href="#contattami">Contattami</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-                <li>
-                    <a href="/#episodi">Gli episodi</a>
-                </li>
+        <main>{{ content }}</main>
 
-                <li>
-                    <a href="#contattami">Contattami</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+        <footer>
+            <p>Questo podcast è scritto, registrato ed editato da me, Francesco Bonizzi, con tanto amore 💚</p>
+            <p>&copy; Copyright 2022. <strong>Come nasce un papà</strong></p>
+        </footer>
 
-    <main>
-        {{ content }}
-    </main>
-
-    <footer>
-        <p>Questo podcast è scritto, registrato ed editato da me, Francesco Bonizzi, con tanto amore 💚</p>
-        <p>&copy; Copyright 2022. <strong>Come nasce un papà</strong></p>
-    </footer>
-
-    {{ page.scripts }}
-
-</body>
+        {{ page.scripts }}
+    </body>
 </html>
