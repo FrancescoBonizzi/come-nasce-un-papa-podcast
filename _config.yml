@@ -1,3 +1,4 @@
+domain: francescopodcast.it
 url: 'https://www.francescopodcast.it'
 plugins:
     - jekyll-sitemap
