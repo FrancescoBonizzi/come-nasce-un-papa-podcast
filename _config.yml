@@ -7,5 +7,3 @@ sass:
     sass_dir: ./_scss
 exclude:
     - dev/
-compress_images:
-    images_path: 'assets/images/**/*.{gif,png,jpg,jpeg,svg}'
