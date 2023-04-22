@@ -1,5 +1,5 @@
 domain: francescopodcast.it
-url: 'https://www.francescopodcast.it'
+url: 'https://francescopodcast.it'
 plugins:
     - jekyll-sitemap
     - jekyll-compress-images
