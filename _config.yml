@@ -7,3 +7,4 @@ sass:
     sass_dir: ./_scss
 exclude:
     - dev/
+    - README.md
