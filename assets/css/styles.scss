@@ -1,5 +1,2 @@
----
----
-
-@import 'site';
-@import 'responsive';
+@use '../../_scss/site';
+@use '../../_scss/responsive';
