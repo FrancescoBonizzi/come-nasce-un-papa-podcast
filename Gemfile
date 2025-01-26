@@ -10,3 +10,6 @@ gem 'jekyll-compress-images'
 gem 'logger'
 gem 'csv'
 gem 'base64'
+
+Encoding.default_external = Encoding::UTF_8
+Encoding.default_internal = Encoding::UTF_8
