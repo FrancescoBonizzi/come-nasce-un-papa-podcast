@@ -7,3 +7,6 @@ gem "jekyll"
 gem "webrick", "~> 1.7"
 gem 'jekyll-sitemap'
 gem 'jekyll-compress-images'
+gem 'logger'
+gem 'csv'
+gem 'base64'
