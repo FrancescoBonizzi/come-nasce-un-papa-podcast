@@ -1,4 +1,5 @@
 domain: francescopodcast.it
+encoding: utf-8
 url: 'https://francescopodcast.it'
 plugins:
     - jekyll-sitemap
